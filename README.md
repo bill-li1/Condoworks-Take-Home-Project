@@ -1,5 +1,5 @@
 # Condoworks-Take-Home-Project
-Developed by Bill Li (billli@gmail.com) using Node.js and Puppeteer for the Condoworks Co-op Test.
+Developed by Bill Li (billli@gmail.com) using Node.js and Puppeteer for the Condoworks Co-op Test. To run the files, navigate to the src folder and run `node file_name.js`.
 ### Parser Problem
 - Given a plain text file representing a utility bill of some sort, the program verifies that the file path is valid and then parses through the file using regular expressions, searching for specific data: customer and account number, bill period, bill number, bill date and total new charges.
 - The file path is given as an argument to the function `parseFile(filePath)`, and the specified data is outputted through the console.
